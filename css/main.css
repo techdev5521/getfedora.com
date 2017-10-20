@@ -1,1 +1,152 @@
 /* main.css */
+
+html{
+	font-family: "Open sans", Helvetica, Arial;
+}
+
+#nav{
+	padding: 20px;
+}
+
+#fedora-logo img{
+	width: 49px;
+	height: 49px;
+}
+
+#fedora-brand img{
+	width: 108px;
+	height: 49px;
+}
+
+#tagline-container{
+	background: rgba(0, 0, 0, 0) radial-gradient(ellipse at 50% 50% , #294172 15%, #233862 70%) repeat scroll 0 0;
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+
+#tagline p.head{
+	color: #fff;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 52px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	line-height: 57.2px;
+}
+
+#tagline p.sub{
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	margin: 10px 0;
+}
+
+#announcement-container{
+	background-color: #a07cbc;
+	padding: 20px;
+}
+
+#announcement p{
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#versions{
+	background-image: url("../img/versions-bg.png");
+}
+
+#workstation-logo{
+	background-image: url("../img/workstation-main.png");
+	padding: 48px 15px 70px 15px;
+	height: 290px;
+}
+
+#server-logo{
+	background-image: url("../img/server-main.png");
+	padding: 48px 15px 70px 15px;
+	height: 290px;
+}
+
+#atomic-logo{
+	background-image: url("../img/atomic-main.png");
+	padding: 48px 15px 70px 15px;
+	height: 290px;
+}
+
+hr.version-hr{
+	background-color: #3c6eb4;
+	color: #3c6eb4;
+	width: 80px;
+	height: 4px !important;
+	margin: 50px 0;
+}
+
+p.version-label{
+	color: #fff;
+	font-size: 24px;
+	font-family: Montserrat;
+	margin-top: 24px;
+	margin-bottom: 30px;
+}
+
+p.version-desc{
+	color: #60605b;
+	padding: 0 60px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 27px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#badges img{
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#accent{
+	background-image: url("../img/accent.png");
+	height: 70px;
+}
+
+p.info-title{
+	color: #333;
+	font-size: 36px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+p.info-text{
+	margin: 10px 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+#more-info{
+	margin-top: 60px;
+	background-color: #fff;
+}
+
+#options img{
+	padding: 5px;
+	text-align: center;
+}
+
+#footer{
+	margin-top: 60px;
+	padding-top: 30px;
+	background-color: #e6e6e6;
+}
+
+.footer-title{
+	color: #8d8d8d;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
